@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="background">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" />
+    </section>
+    <section class="header" style="text-align: center; padding: 10px">
+      <h1 style="font-family: 'Arial Narrow', Arial, sans-serif">
+        My Tutorials Point
+      </h1>
+    </section>
+    <section class="navbar">
+      <a id="home" href="home.html">Home</a>
+      <a id="about" href="about.html">About</a>
+    </section>
+    <section class="main">
+      <section class="article">
+        <section>
+          <h2 class="heading">HTML Formatting</h2>
+          <p>
+            HTML Formatting is a process of formatting text for better look and
+            feel. HTML provides us ability to format text without using CSS.
+            There are many formatting tags in HTML. These tags are used to make
+            text bold, italicized, or underlined.
+          </p>
+          <section class="subarticle">
+            <h3 class="heading">1) Bold Text</h3>
+            <p>
+              Example 1: <b>This Text is Bold using <span><</span>b<span>></span> tag</b>
+            </p>
+            <p>
+              Example 2: <strong>This Text is Bold using <span><</span>strong<span>></span> tag</strong>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">2) Italic Text</h3>
+            <p>
+              Example 1: <i>This Text is Italic using <span><</span>i<span>></span> tag</i>
+            </p>
+            <p>
+              Example 2: <em>This Text is Italic using <span><</span>em<span>></span> tag</em>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">3) HTML Marked formatting</h3>
+            <p>
+              Example: <mark>This Text is Marked using <span><</span>mark<span>></span> tag</mark>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">4) Underlined Text</h3>
+            <p>
+              Example: <u>This Text is Underlined using <span><</span>u<span>></span> tag</u>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">5) Strike Text</h3>
+            <p>
+              Example: <strike>This Text is Striked using <span><</span>strike<span>></span> tag</strike>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">6) Superscript Text</h3>
+            <p>
+              Example 1: <sup>This Text is Superscripted using <span><</span>sup<span>></span> tag</sup>
+            </p>
+            <p>
+              Example 2: X<sup>2</sup> + Y<sup>2</sup>
+            </p>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">7) Subscript Text</h3>
+            <p>
+              Example 1: <sub>This Text is Subscripted using <span><</span>sub<span>></span> tag</sub>
+            </p>
+            <p>
+              Example 2: H<sub>2</sub>O
+            </p>
+          </section>
+        </section>
+        <section>
+          <h2 class="heading">HTML Lists</h2>
+          <p>
+            HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are different types of HTML lists.
+          </p>
+          <section class="subarticle">
+            <h3 class="heading">1) Ordered List or Numbered List (ol)</h3>
+            <p>
+              Following is an example of Ordered List
+            </p>
+            <div>
+              <ol>
+                <li><b><span><</span>ol> tag</b> defines the start of the list.</li>
+                <li><b><span><</span>li> tag</b> defines the list items.</li>
+              </ol>
+            </div>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">2) Unordered List or Bulleted List (ul)</h3>
+            <p>
+              Following is an example of Unordered List
+            </p>
+            <div>
+              <ul>
+                <li><b><span><</span>ul> tag</b> defines the start of the list.</li>
+                <li><b><span><</span>li> tag</b> defines the list items.</li>
+              </ul>
+            </div>
+            </div>
+          </section>
+          <section class="subarticle">
+            <h3 class="heading">3) HTML Description List or Definition List</h3>
+            <p>
+              Following is an example of Description List
+            </p>
+            <div>
+              <dl>
+                <dt><b><span><</span>dl> tag</b></dt>
+                <dd>- defines the start of the list.</dd>
+                <dt><b><span><</span>dt> tag</b></dt>
+                <dd>- defines a term.</dd>
+                <dt><b><span><</span>dd> tag</b></dt>
+                <dd>- defines the term definition.</dd>
+              </dl>
+            </div>
+            </div>
+          </section>
+        </section>
+        <section>
+          <h2 class="heading">HTML Table</h2>
+          <p>
+            HTML table tag is used to display data in tabular form (row * column). There can be many columns in a row.
+          </p>
+          <p>
+            We can create a table to display data in tabular form, using <span><</span>table> element, with the help of <span><</span>tr> , <span><</span>td>, and <span><</span>th> elements.
+          </p>
+          <ol>
+            <li>Table Row is defined by <b><span><</span>tr> tag</b>.</li>
+            <li>Table Header is defined by <b><span><</span>th> tag</b>.</li>
+            <li>Table Data is defined by <b><span><</span>td> tag</b>.</li>
+          </ol>
+          <p>Example:</p>
+          <table border="1">
+            <tr>
+              <th>Component</th>
+              <th>Use Case</th>
+            </tr>
+            <tr>
+              <td>MongoDB</td>
+              <td>
+                <ul>
+                  <li>Mongo DB is the most popular NoSQL (NoSQL or Non Structured Query Language) database, an open-source document-oriented database.</li>
+                  <li>It implies that MongoDB is not based on the table-like relational database structure.</li>
+                  <li>On the other hand, it provides an altogether different mechanism for the retrieval and storage of data.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Express</td>
+              <td>
+                <ul>
+                  <li>Express is a JavaScript server-side framework that runs within js.</li>
+                  <li>It is one of the best backend development JavaScript Frameworks.</li>
+                  <li>It provides the developer with a platform to create and maintain robust servers.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>
+                <ul>
+                  <li>React is one of the most popular open-source front-end JavaScript libraries used for building Web applications.</li>
+                  <li>It is used to build user interfaces, especially for a single page web application.</li>
+                  <li>It allows us to create reusable UI ( User Interface ) components.</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Node.js</td>
+              <td>
+                <ul>
+                  <li>js is an open-source server environment, and it is a cross-platform runtime environment for executing JavaScript code outside a browser.</li>
+                  <li>It is often used for building and developing numerous backend services like net applications, mobile applications.</li>
+                  <li>It is incredibly simple to urge started with it and may even be used for agile development and prototyping.</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h2 class="heading">HTML Video Tag</h2>
+          <p>
+            HTML 5 supports <span><</span>video> tag also. The HTML video tag is used for streaming video files such as a movie clip, song clip on the web page.
+          </p>
+          <p>
+            Currently, there are three video formats supported for HTML video tag:
+          </p>
+          <ol>
+            <li>mp4</li>
+            <li>webM</li>
+            <li>ogg</li>
+          </ol>
+          <p>Example:</p>
+          <video controls width="500px">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+          </video>
+        </section>
+      </section>
+      <section class="aside">
+        <p>Topics Covered</p>
+        <ol>
+          <li>HTML Formatting</li>
+          <li>HTML Lists</li>
+          <li>HTML Table</li>
+          <li>HTML Video Tag</li>
+          <li>HTML Semantic Elements</li>
+        </ol>
+      </section>
+    </section>
+    <section class="footer">
+      <p>Designed by Dawood Khatri.</p>
+    </section>
+  </body>
+</html>
