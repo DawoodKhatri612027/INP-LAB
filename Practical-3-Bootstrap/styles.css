@@ -1,0 +1,32 @@
+:root {
+    --col1 : #374F59;
+    --col2: #1C75BC;
+    --col3: #CBE5EF;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.breadcrumb-item {
+  color: var(--col2);
+}
+
+.breadcrumb-item.active {
+  color: var(--col3);
+}
+
+.banner {
+  object-fit: cover;
+  height: 450px;
+}
+
+.form-group, .form-group small {
+    color: var(--col3);
+}
+
+.form-control, .form-control:focus {
+    border-color: var(--col1);
+    background-color: var(--col3);
+}
