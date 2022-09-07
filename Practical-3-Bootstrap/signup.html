@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body class="d-flex flex-column">
     <nav class="navbar navbar-dark" style="background-color: var(--col1);">
         <div class="d-flex">
             <img src="./icons/logo.png" width="50" height="50">
@@ -20,16 +20,17 @@
         </ol>
       </nav>
       
-      <div class="container-fluid p-4 text-center" style="background-color: var(--col3); height: 90%;">
-        <form class="form-signin py-4 mx-auto my-5 w-25">
+      <div class="container-fluid p-4 text-center" style="background-color: var(--col3); flex: auto;">
+        <form class="form-signin py-4 mx-auto my-5" style="width: 300px;">
             <img src="./icons/logo.png" width="72" height="72" class="mb-4 rounded">
-            <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+            <h2>SKYTECH</h2>
+            <!-- <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1> -->
             <input type="email" class="form-control my-4" placeholder="Email address" required autofocus>
             <input type="password" class="form-control my-4" placeholder="Password" required>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
         </form>
       </div>
-      <footer class="fixed-bottom text-center" style="background-color: var(--col1);">
+      <footer class="text-center" style="background-color: var(--col1);">
         <p class="navbar-brand p-2 h1" style="color: var(--col3);">© 2022 Copyright: SKYTECH</p>
       </footer>
 

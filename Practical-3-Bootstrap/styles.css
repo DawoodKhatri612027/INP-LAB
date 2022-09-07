@@ -30,3 +30,7 @@ html, body {
     border-color: var(--col1);
     background-color: var(--col3);
 }
+
+img {
+  object-fit: cover;
+}
